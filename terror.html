@@ -3,14 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/generales.css">
+    <link rel="stylesheet" href="css/css3columnas.css">
     <title>Juegos de terror</title>
 </head>
 
 <body>
     <header>
         <img src="imagenes/logo.jpg" alt="logo">
+        <h1>Blog de Juegos</h1>
     </header>
-    <nav>
+    <nav id="menu">
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="accion.html">Juegos de accion</a></li>
@@ -19,217 +22,250 @@
             <li><a href="mobile.html">Juegos para mobile</a></li>
         </ul>
     </nav>
-    <section>
-        <h2>JUegos de Terror</h2>
-        <header>
-            <ul>
-                <li><a href="#ud">Until Dawn</a></li>
-                <li><a href="#sh">Silent Hill</a></li>
-                <li><a href="#re5">Resident Evil 5</a></li>
-            </ul>
-        </header>
-        <article id="ud">
-            <h2>Until Dawn</h2>
-            <img src="imagenes/ud.jpg" alt="UD">
-            <p>
-                Until Dawn es un videojuego narrativo de los géneros survival horror y drama interactivo, desarrollado
-                por Supermassive Games y publicado por Sony Computer Entertainment, para PlayStation 4.
-                Fue originalmente programado para ser lanzado en la consola de PlayStation 3, pero en agosto de 2014, el
-                juego fue re introducido como exclusivo para la PlayStation 4. Fue lanzado el 25 de agosto en
-                Norteamérica y el 26 de agosto de 2015 en el resto del mundo.
-            </p>
-            <p>
-                Until Dawn generó una respuesta positiva de la crítica después de su lanzamiento, con elogios dirigidos
-                a los niveles gráficos visuales, a la elección mecánica del juego, a sus elementos de terror, la música,
-                la actuación, voces y diseño de juego.
-                La mayor parte de las críticas que el juego atrajo fue referente a la historia, sobre todo la segunda
-                mitad, los ángulos de cámara, movimientos de los personajes y la trama parcialmente lineal.
-            </p>
-            <table border="1">
-                <tr>
-                    <td colspan="3"><b>Requisitos</b></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><b>Mínimos </b></td>
-                    <td><b>Recomendados </b></td>
-                </tr>
-                <tr>
-                    <td><b>CPU</b></td>
-                    <td>Intel Core i5 2400 @ 3.1 GHz o AMD FX 6350 @ 3.9 GHz</td>
-                    <td>Intel Core i7-4790 @ 3.6 GHz o AMD Ryzen 5 1600 @ 3.2 GHz</td>
-                </tr>
-                <tr>
-                    <td><b>RAM</b></td>
-                    <td>4GB</td>
-                    <td>8GB </td>
-                </tr>
-                <tr>
-                    <td><b>SO</b></td>
-                    <td colspan="2">Windows 7 SP1, Windows 8.1, Windows 10 (64bit solamente)</td>
-                </tr>
-                <tr>
-                    <td><b>Tarjeta gráfica</b></td>
-                    <td>NVIDIA GeForce GTX 670 (2GB) o AMD Radeon R9 270X (2GB) o superior</td>
-                    <td>NVIDIA GeForce GTX 970 (4GB) o AMD Radeon R9 290X (4GB) o superior</td>
-                </tr>
-                <tr>
-                    <td><b>Disco Duro (Espacio libre) </b></td>
-                    <td colspan="3">30GB</td>
-                </tr>
-            </table>
-        </article>
+    <div id="contenido">
+        <div class="subMenu">
+            <h2>JUegos de Terror</h2>
+            <header>
+                <ul>
+                    <li><a href="#ud">Until Dawn</a></li>
+                    <li><a href="#sh">Silent Hill</a></li>
+                    <li><a href="#re5">Resident Evil 5</a></li>
+                </ul>
+            </header>
+        </div>
+        <section>
+            <article id="ud">
+                <h2>Until Dawn</h2>
+                <img src="imagenes/ud.jpg" alt="UD">
+                <p>
+                    Until Dawn es un videojuego narrativo de los géneros survival horror y drama interactivo,
+                    desarrollado
+                    por Supermassive Games y publicado por Sony Computer Entertainment, para PlayStation 4.
+                    Fue originalmente programado para ser lanzado en la consola de PlayStation 3, pero en agosto de
+                    2014, el
+                    juego fue re introducido como exclusivo para la PlayStation 4. Fue lanzado el 25 de agosto en
+                    Norteamérica y el 26 de agosto de 2015 en el resto del mundo.
+                </p>
+                <p>
+                    Until Dawn generó una respuesta positiva de la crítica después de su lanzamiento, con elogios
+                    dirigidos
+                    a los niveles gráficos visuales, a la elección mecánica del juego, a sus elementos de terror, la
+                    música,
+                    la actuación, voces y diseño de juego.
+                    La mayor parte de las críticas que el juego atrajo fue referente a la historia, sobre todo la
+                    segunda
+                    mitad, los ángulos de cámara, movimientos de los personajes y la trama parcialmente lineal.
+                </p>
+                <table>
+                    <tr>
+                        <td colspan="3"><b>Requisitos</b></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><b>Mínimos </b></td>
+                        <td><b>Recomendados </b></td>
+                    </tr>
+                    <tr>
+                        <td><b>CPU</b></td>
+                        <td>Intel Core i5 2400 @ 3.1 GHz o AMD FX 6350 @ 3.9 GHz</td>
+                        <td>Intel Core i7-4790 @ 3.6 GHz o AMD Ryzen 5 1600 @ 3.2 GHz</td>
+                    </tr>
+                    <tr>
+                        <td><b>RAM</b></td>
+                        <td>4GB</td>
+                        <td>8GB </td>
+                    </tr>
+                    <tr>
+                        <td><b>SO</b></td>
+                        <td colspan="2">Windows 7 SP1, Windows 8.1, Windows 10 (64bit solamente)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Tarjeta gráfica</b></td>
+                        <td>NVIDIA GeForce GTX 670 (2GB) o AMD Radeon R9 270X (2GB) o superior</td>
+                        <td>NVIDIA GeForce GTX 970 (4GB) o AMD Radeon R9 290X (4GB) o superior</td>
+                    </tr>
+                    <tr>
+                        <td><b>Disco Duro (Espacio libre) </b></td>
+                        <td colspan="3">30GB</td>
+                    </tr>
+                </table>
+            </article>
 
-        <article id="sh">
-            <h2>Silent Hill</h2>
-            <img src="imagenes/sh.jpg" alt="SH">
-            <p>
-                Silent Hill es una franquicia de terror creada por Keiichiro Toyama y publicada por Konami y su
-                subsidiaria, Konami Digital Entertainment.
-                Los primeros cuatro títulos de la serie, Silent Hill, 2, 3 y 4: The Room, fueron desarrollados por Team
-                Silent, grupo interno perteneciente a KCET.
-                Las obras posteriores fueron creadas y/o desarrolladas por grupos no relacionados con el equipo
-                original. En dichas obras se incluyen historietas, filmes y videojuegos.
-            </p>
-            <p>
-                Silent Hill transcurre en la ciudad ficticia homónima, localizada en Estados Unidos. La serie está
-                fuertemente influenciada por el terror psicológico y presenta a protagonistas sin cualidades o destreza
-                física por sobre lo normal; en contraste con otros títulos de survival horror.
-                Las mecánicas de juego giran en torno a resolver acertijos, explorar el mapa en busca de objetos
-                interesantes y combatir monstruos. 20 años después de su creación, un modder encontró monstruos inéditos
-                que Konami había mantenido dormidos en los ficheros del juego.
-            </p>
-            <table border="1">
-                <tr>
-                    <td colspan="3"><b>Requisitos</b></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><b>Mínimos </b></td>
-                    <td><b>Recomendados </b></td>
-                </tr>
-                <tr>
-                    <td><b>CPU</b></td>
-                    <td>Pentium 3 @ 1 GHz o equivalente</td>
-                    <td>Pentium 4 @ 2 GHz o equivalente</td>
-                </tr>
-                <tr>
-                    <td><b>RAM</b></td>
-                    <td>256MB</td>
-                    <td>512MB</td>
-                </tr>
-                <tr>
-                    <td><b>SO</b></td>
-                    <td colspan="2">Windows 98/ME/2000/XP</td>
-                </tr>
-                <tr>
-                    <td><b>Tarjeta gráfica</b></td>
-                    <td>32 MB de vRAM (GeForce 3 Ti/Radeon 8500)</td>
-                    <td>64 MB (GeForce 4 Ti/Radeon 8500)</td>
-                </tr>
-                <tr>
-                    <td><b>Disco Duro (Espacio libre) </b></td>
-                    <td colspan="3">5GB</td>
-                </tr>
-            </table>
-        </article>
+            <article id="sh">
+                <h2>Silent Hill</h2>
+                <img src="imagenes/sh.jpg" alt="SH">
+                <p>
+                    Silent Hill es una franquicia de terror creada por Keiichiro Toyama y publicada por Konami y su
+                    subsidiaria, Konami Digital Entertainment.
+                    Los primeros cuatro títulos de la serie, Silent Hill, 2, 3 y 4: The Room, fueron desarrollados por
+                    Team
+                    Silent, grupo interno perteneciente a KCET.
+                    Las obras posteriores fueron creadas y/o desarrolladas por grupos no relacionados con el equipo
+                    original. En dichas obras se incluyen historietas, filmes y videojuegos.
+                </p>
+                <p>
+                    Silent Hill transcurre en la ciudad ficticia homónima, localizada en Estados Unidos. La serie está
+                    fuertemente influenciada por el terror psicológico y presenta a protagonistas sin cualidades o
+                    destreza
+                    física por sobre lo normal; en contraste con otros títulos de survival horror.
+                    Las mecánicas de juego giran en torno a resolver acertijos, explorar el mapa en busca de objetos
+                    interesantes y combatir monstruos. 20 años después de su creación, un modder encontró monstruos
+                    inéditos
+                    que Konami había mantenido dormidos en los ficheros del juego.
+                </p>
+                <table>
+                    <tr>
+                        <td colspan="3"><b>Requisitos</b></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><b>Mínimos </b></td>
+                        <td><b>Recomendados </b></td>
+                    </tr>
+                    <tr>
+                        <td><b>CPU</b></td>
+                        <td>Pentium 3 @ 1 GHz o equivalente</td>
+                        <td>Pentium 4 @ 2 GHz o equivalente</td>
+                    </tr>
+                    <tr>
+                        <td><b>RAM</b></td>
+                        <td>256MB</td>
+                        <td>512MB</td>
+                    </tr>
+                    <tr>
+                        <td><b>SO</b></td>
+                        <td colspan="2">Windows 98/ME/2000/XP</td>
+                    </tr>
+                    <tr>
+                        <td><b>Tarjeta gráfica</b></td>
+                        <td>32 MB de vRAM (GeForce 3 Ti/Radeon 8500)</td>
+                        <td>64 MB (GeForce 4 Ti/Radeon 8500)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Disco Duro (Espacio libre) </b></td>
+                        <td colspan="3">5GB</td>
+                    </tr>
+                </table>
+            </article>
 
-        <article id="re5">
-            <h2>Resident Evil 5</h2>
-            <img src="imagenes/re5.jpg" alt="RE5">
-            <p>
-                Resident Evil 5 —cuyo título original es Biohazard 5 es un videojuego de acción-aventura del estilo
-                survival horror desarrollado por Capcom y distribuido por la misma en colaboración con THQ Asia Pacific.
-                El título es precedido por Resident Evil 4 y sucedido por Resident Evil 6, y se convierte en la quinta
-                entrega numérica de la serie principal.
-                Se lanzó oficialmente para las consolas de PlayStation 3 y Xbox 360 el 5 de marzo de 2009 en Japón, y el
-                13 de marzo del mismo año en Norteamérica y Europa. Posteriormente se diseñó una versión para Microsoft
-                Windows, la cual se estrenó el 15 de septiembre de 2009 en Norteamérica, el 17 de septiembre de 2009 en
-                Japón y un día después en el continente europeo.
-                Debido al gran éxito, la compañía decidió lanzar una edición especial bajo el nombre de Resident Evil 5:
-                Gold Edition la cual contiene un nuevo capítulo y una campaña que siguen con la trama del juego.
-                Conjuntamente se han estrenado diversos contenidos descargables, disponibles en Xbox Live Marketplace y
-                PlayStation Network, todos ellos incluyen nuevas modalidades, personajes y secretos que amplían su
-                rejugabilidad.
-            </p>
-            <p>
-                La historia del juego sigue a Chris Redfield, uno de los supervivientes del desastre de la mansión
-                Spencer que se ha convertido en miembro y fundador de la B.S.A.A.; una fuerza especial dedicada a
-                combatir el bioterrorismo en todo el mundo. Éste es enviado junto con Sheva Alomar a investigar una
-                amenaza terrorista en Kijuju, un pueblo ficticio ubicado en el continente africano.
-                Al llegar a dicho lugar, son atacados por sus habitantes que han sido infectados por una extraña especie
-                de parásito que los vuelve violentos. Al igual que otros títulos de la serie, el videojuego es de
-                acción-aventura del estilo survival horror. Siguiendo los pasos de su antecesor, incluye inmensos y
-                dinámicos escenarios debido a que la trama se basa en una aldea africana.
-                El sistema de juego es similar a Resident Evil 4, con la diferencia de que se ha añadido un personaje
-                que acompaña al protagonista en toda la historia. Esto puede favorecer o perjudicar en ciertos aspectos
-                al jugador, siendo uno de los beneficios la ayuda que brinda Sheva en ciertas ocasiones, mientras que
-                uno de sus contras es el racionamiento de la munición para ambos personajes. Por otro lado, incluye una
-                gran variedad de contenido desbloqueable como minijuegos, trajes secretos, armas infinitas, texturas
-                para los escenarios y otros extras disponibles.
-            </p>
-            <p>
-                Resident Evil 5 tuvo un buen éxito comercial. Actualmente, ha vendido más de 5,80 millones de copias a
-                nivel mundial.
-                Es el tercer videojuego de la franquicia que ha logrado vender dicha cantidad gracias a todas sus
-                versiones disponibles.
-                Sin embargo es el cuarto título de la serie que sobrepasa la marca de los 4 millones de unidades
-                comercializadas; solamente en la versión de PlayStation 3, después de Resident Evil 4, Resident Evil 2 y
-                Resident Evil, de los cuales sus cifras ascienden a más de 5 millones de unidades cada uno.
-                Resident Evil 5 recibió diversas críticas por parte de sitios web importantes especializados en
-                videojuegos como Metacritic, GameSpot, GameRankings, IGN, MeriStation, Vandal, 3DJuegos, entre otros. La
-                Revista Oficial de Xbox felicitó al equipo de desarrollo por elaborar magníficas gráficas tanto para los
-                escenarios como para los personajes;
-                a pesar de su buen desempeño comercial, recibió alegaciones de racismo debido a que los enemigos en su
-                mayoría son de piel negra, después del estreno de varias demostraciones del juego, varios críticos lo
-                clasificaron de contenido racista. Por otro lado, al igual que su antecesor, ha logrado revolucionar el
-                universo Resident Evil, siendo uno de los títulos más centrado en la acción, sin dejar a un lado la
-                esencia del survival horror.
-            </p>
+            <article id="re5">
+                <h2>Resident Evil 5</h2>
+                <img src="imagenes/re5.jpg" alt="RE5">
+                <p>
+                    Resident Evil 5 —cuyo título original es Biohazard 5 es un videojuego de acción-aventura del estilo
+                    survival horror desarrollado por Capcom y distribuido por la misma en colaboración con THQ Asia
+                    Pacific.
+                    El título es precedido por Resident Evil 4 y sucedido por Resident Evil 6, y se convierte en la
+                    quinta
+                    entrega numérica de la serie principal.
+                    Se lanzó oficialmente para las consolas de PlayStation 3 y Xbox 360 el 5 de marzo de 2009 en Japón,
+                    y el
+                    13 de marzo del mismo año en Norteamérica y Europa. Posteriormente se diseñó una versión para
+                    Microsoft
+                    Windows, la cual se estrenó el 15 de septiembre de 2009 en Norteamérica, el 17 de septiembre de 2009
+                    en
+                    Japón y un día después en el continente europeo.
+                    Debido al gran éxito, la compañía decidió lanzar una edición especial bajo el nombre de Resident
+                    Evil 5:
+                    Gold Edition la cual contiene un nuevo capítulo y una campaña que siguen con la trama del juego.
+                    Conjuntamente se han estrenado diversos contenidos descargables, disponibles en Xbox Live
+                    Marketplace y
+                    PlayStation Network, todos ellos incluyen nuevas modalidades, personajes y secretos que amplían su
+                    rejugabilidad.
+                </p>
+                <p>
+                    La historia del juego sigue a Chris Redfield, uno de los supervivientes del desastre de la mansión
+                    Spencer que se ha convertido en miembro y fundador de la B.S.A.A.; una fuerza especial dedicada a
+                    combatir el bioterrorismo en todo el mundo. Éste es enviado junto con Sheva Alomar a investigar una
+                    amenaza terrorista en Kijuju, un pueblo ficticio ubicado en el continente africano.
+                    Al llegar a dicho lugar, son atacados por sus habitantes que han sido infectados por una extraña
+                    especie
+                    de parásito que los vuelve violentos. Al igual que otros títulos de la serie, el videojuego es de
+                    acción-aventura del estilo survival horror. Siguiendo los pasos de su antecesor, incluye inmensos y
+                    dinámicos escenarios debido a que la trama se basa en una aldea africana.
+                    El sistema de juego es similar a Resident Evil 4, con la diferencia de que se ha añadido un
+                    personaje
+                    que acompaña al protagonista en toda la historia. Esto puede favorecer o perjudicar en ciertos
+                    aspectos
+                    al jugador, siendo uno de los beneficios la ayuda que brinda Sheva en ciertas ocasiones, mientras
+                    que
+                    uno de sus contras es el racionamiento de la munición para ambos personajes. Por otro lado, incluye
+                    una
+                    gran variedad de contenido desbloqueable como minijuegos, trajes secretos, armas infinitas, texturas
+                    para los escenarios y otros extras disponibles.
+                </p>
+                <p>
+                    Resident Evil 5 tuvo un buen éxito comercial. Actualmente, ha vendido más de 5,80 millones de copias
+                    a
+                    nivel mundial.
+                    Es el tercer videojuego de la franquicia que ha logrado vender dicha cantidad gracias a todas sus
+                    versiones disponibles.
+                    Sin embargo es el cuarto título de la serie que sobrepasa la marca de los 4 millones de unidades
+                    comercializadas; solamente en la versión de PlayStation 3, después de Resident Evil 4, Resident Evil
+                    2 y
+                    Resident Evil, de los cuales sus cifras ascienden a más de 5 millones de unidades cada uno.
+                    Resident Evil 5 recibió diversas críticas por parte de sitios web importantes especializados en
+                    videojuegos como Metacritic, GameSpot, GameRankings, IGN, MeriStation, Vandal, 3DJuegos, entre
+                    otros. La
+                    Revista Oficial de Xbox felicitó al equipo de desarrollo por elaborar magníficas gráficas tanto para
+                    los
+                    escenarios como para los personajes;
+                    a pesar de su buen desempeño comercial, recibió alegaciones de racismo debido a que los enemigos en
+                    su
+                    mayoría son de piel negra, después del estreno de varias demostraciones del juego, varios críticos
+                    lo
+                    clasificaron de contenido racista. Por otro lado, al igual que su antecesor, ha logrado revolucionar
+                    el
+                    universo Resident Evil, siendo uno de los títulos más centrado en la acción, sin dejar a un lado la
+                    esencia del survival horror.
+                </p>
 
-            <table border="1">
-                <tr>
-                    <td colspan="3"><b>Requisitos</b></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><b>Mínimos </b></td>
-                    <td><b>Recomendados </b></td>
-                </tr>
-                <tr>
-                    <td><b>CPU</b></td>
-                    <td>Intel Pentium AMD Athlon64 x2</td>
-                    <td>Intel Core2Quad o superior / AMD Phenom x4 ó superior</td>
-                </tr>
-                <tr>
-                    <td><b>RAM</b></td>
-                    <td>1GB</td>
-                    <td>2GB </td>
-                </tr>
-                <tr>
-                    <td><b>SO</b></td>
-                    <td colspan="2">Windows 7, Windows 8.1, Windows 10</td>
-                </tr>
-                <tr>
-                    <td><b>Tarjeta gráfica</b></td>
-                    <td>NVIDIA GeForce 6800 series ó ATI Radeon HD 2400 Pro. VRAM (512MB)</td>
-                    <td>NVIDIA GeForce 9800 series ó superior, ATI Radeon HD 4800 series o superior. VRAM (512MB)</td>
-                </tr>
-                <tr>
-                    <td><b>Disco Duro (Espacio libre) </b></td>
-                    <td colspan="3">5GB</td>
-                </tr>
-            </table>
-        </article>
-
+                <table>
+                    <tr>
+                        <td colspan="3"><b>Requisitos</b></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><b>Mínimos </b></td>
+                        <td><b>Recomendados </b></td>
+                    </tr>
+                    <tr>
+                        <td><b>CPU</b></td>
+                        <td>Intel Pentium AMD Athlon64 x2</td>
+                        <td>Intel Core2Quad o superior / AMD Phenom x4 ó superior</td>
+                    </tr>
+                    <tr>
+                        <td><b>RAM</b></td>
+                        <td>1GB</td>
+                        <td>2GB </td>
+                    </tr>
+                    <tr>
+                        <td><b>SO</b></td>
+                        <td colspan="2">Windows 7, Windows 8.1, Windows 10</td>
+                    </tr>
+                    <tr>
+                        <td><b>Tarjeta gráfica</b></td>
+                        <td>NVIDIA GeForce 6800 series ó ATI Radeon HD 2400 Pro. VRAM (512MB)</td>
+                        <td>NVIDIA GeForce 9800 series ó superior, ATI Radeon HD 4800 series o superior. VRAM (512MB)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Disco Duro (Espacio libre) </b></td>
+                        <td colspan="3">5GB</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+    </div>
+    <div id="extra">
         <aside>
             <img src="imagenes/publi1.jpg" alt="Steam">
         </aside>
         <aside>
             <img src="imagenes/publi2.jpg" alt="EA">
         </aside>
-    </section>
-    <section>
+    </div>
+    <section class="rg">
         <aside>
             <img src="imagenes/rg.jpg" alt="RG">
         </aside>
