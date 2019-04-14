@@ -237,10 +237,8 @@ footer a:hover{
 ``` 
 Para lograr que estos elementos floten de manera correcta el contenido principal se encierra dentro de un DIV así también como el los asides se encierra dentro de un DIV para lograr 3 cajas que contienen dentro de ellas elementos y a estas poderles dar el tamaño adecuado para que se posicionen una a lado de otra.
 
-6.	Se crea el archivo HTML que contendrá el formulario como esta comparte todo el contenido básico de las otras páginas solo se evidenciara que dentro del contenido principal se encuentra el formulario para contacto:
-```html
-<a href="contacto.html">Contacto</a>
-```
+6.	Se crea el archivo HTML que contendrá el formulario como esta comparte todo el contenido básico de las otras páginas solo se evidenciara que dentro del contenido principal se encuentra el formulario para <a href="contacto.html">Contacto</a>
+
 7.	Posteriormente se procede a dar estilos al formulario para lograr una vista mas amigable:
 ```css 
 /**Formulario**/
