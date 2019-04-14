@@ -7,16 +7,29 @@ body{
     background-image: url("../imagenes/dynamic-style.png");
 }
 /**HEADER**/
-header {
+#cabezera{
     width: 100%;
-    margin: 10px;
+    background-image: url("../imagenes/portada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 14.1em;
 }
-header img{
-    width: 400px;
+#cabezera img{
+    width: 10em;
+    height: 10em;
+    position: relative;
     float: left;
+    border-radius: 50%;
+    top: 2.2em;
+    left: 1em;
+    transition: transform 2s ease-out;
+}
+#cabezera>img:hover{
+    transform: rotate(360deg);
 }
 
-header h1{
+#cabezera h1{
     text-transform: uppercase;
     font-size: 3em;
     display: block;
