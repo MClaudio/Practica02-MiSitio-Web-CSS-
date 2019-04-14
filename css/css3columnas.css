@@ -10,6 +10,10 @@
 #extra{
     width: 24%;
     float: left;
+    background-color: #E6DBC8;
+    border: 4px dotted #1C80FF;
+    border-radius: 20px;
+    margin: 5px;
 }
 
 #extra img{

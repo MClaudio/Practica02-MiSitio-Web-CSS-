@@ -28,7 +28,6 @@ body{
 #cabezera>img:hover{
     transform: rotate(360deg);
 }
-
 #cabezera h1{
     text-transform: uppercase;
     font-size: 3em;
@@ -38,9 +37,7 @@ body{
     left: 25px;
     color: #1C80FF;
 }
-
 /**NAV**/
-
 nav{
     clear: both;
     margin: 5px;
@@ -61,7 +58,7 @@ nav ul li a:hover{
     color: #FFF;
 }
 
-/**BODY**/
+/**BODY SUBMENU**/
 #contenido .subMenu{
     border: 4px dotted #1C80FF;
     padding: 10px;
@@ -88,12 +85,11 @@ nav ul li a:hover{
 #contenido .subMenu a:hover{
     text-decoration: underline;
 }
-
+/**BODY**/
 body #tituloContenido{
     margin: 10px;
     text-transform: uppercase
 }
-
 #contenido{
     padding: 10px;
     background-color: #FFF;
@@ -107,17 +103,15 @@ body #tituloContenido{
 #contenido .subTitulos,h3{
     font-size: 1.5em;
 }
-
 #contenido img{
     width: 100%;
 }
 #contenido img:hover{
     opacity: .8;
 }
-
+/**BODY TABLA**/
 #contenido table{
     background-color: #E6DBC8;
-
 }
 #contenido table,td{
     border: 1px solid #1C80FF;
@@ -137,7 +131,6 @@ body #tituloContenido{
     margin: 10px;
     float: left;
 }
-
 #extra img{
     width: 100%; 
 }
@@ -145,7 +138,6 @@ body #tituloContenido{
     opacity: .7;
     cursor: pointer;
 }
-
 /**ASIDE 2**/
 .rg{
     width: 100%;
