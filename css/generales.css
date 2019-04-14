@@ -6,6 +6,7 @@
 body{
     background-image: url("../imagenes/dynamic-style.png");
 }
+/**HEADER**/
 header {
     width: 100%;
     margin: 10px;
@@ -25,9 +26,7 @@ header h1{
     color: #1C80FF;
 }
 
-footer{
-    clear: both;
-}
+/**NAV**/
 
 nav{
     clear: both;
@@ -49,6 +48,34 @@ nav ul li a:hover{
     color: #FFF;
 }
 
+/**BODY**/
+#contenido .subMenu{
+    border: 4px dotted #1C80FF;
+    padding: 10px;
+    background-color: #E6DBC8;
+}
+#contenido .subMenu h2{
+    text-transform: uppercase;
+}
+#contenido .subMenu ul{
+    text-align: center;
+}
+#contenido .subMenu li{
+    list-style: none;
+    display: inline-block;  
+}
+#contenido .subMenu a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    transition: 1s ease all;
+}
+#contenido .subMenu a:hover{
+    text-decoration: underline;
+}
+
 body #tituloContenido{
     margin: 10px;
     text-transform: uppercase
@@ -56,14 +83,20 @@ body #tituloContenido{
 
 #contenido{
     padding: 10px;
+    background-color: #FFF;
 }
 #contenido article{
     margin: 10px 0px;
     text-align: justify;
     border-bottom: 4px dotted #1C80FF;
+    padding-bottom: 5px;
 }
-#contenido .subTitulos{
+#contenido .subTitulos,h3{
     font-size: 1.5em;
+}
+
+#contenido img{
+    width: 100%;
 }
 
 #contenido table{
@@ -77,6 +110,7 @@ body #tituloContenido{
     text-align: center;
 }
 
+/**ASIDE 1**/
 #extra{
     width: 100%;
     display: inline-block;
@@ -90,11 +124,18 @@ body #tituloContenido{
 #extra img{
     width: 100%;
 }
+
+/**ASIDE 2**/
 .rg{
     width: 100%;
 }
 .rg img{
     width: 100%;
+}
+
+/**FOOTER**/
+footer{
+    clear: both;
 }
 
 footer{

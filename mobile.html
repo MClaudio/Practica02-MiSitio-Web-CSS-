@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/generales.css">
+    <link rel="stylesheet" href="css/css3columnas.css">
     <title>Juegos para mobiles</title>
 </head>
 
 <body>
     <header>
         <img src="imagenes/logo.jpg" alt="logo">
+        <h1>Blog de Juegos</h1>
     </header>
-    <nav>
+    <nav id="menu">
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="accion.html">Juegos de accion</a></li>
@@ -20,124 +22,134 @@
             <li><a href="mobile.html">Juegos para mobile</a></li>
         </ul>
     </nav>
-    <section>
-        <h2>Juegos para Moviles</h2>
-        <header>
-            <ul>
-                <li><a href="#pubgMobile">PUBG Mobile </a></li>
-                <li><a href="#forniteMobile">Fortnite</a></li>
-                <li><a href="#VainGlory">VainGlory</a></li>
-            </ul>
-        </header>
-        <article id="pubgMobile">
-            <h2>PUBG Mobile </h2>
-            <img src="imagenes/pubg-mobile-portada.jpg" alt="PUBG Mobile">
-            <p>
-                PUBG Mobile es la versión para dispositivos móviles del popular PlayerUnknown's Battlegrounds, el juego
-                que popularizó el género battle royale.
-            </p>
-            <p>
-                Hasta el momento, muchos titulos habían copiado la premisa de PUBG en móviles, pero es ahora cuando la
-                obra original da el salto a dichos sistemas. La premisa es la misma que en la obra original: ser el
-                único superviviente en una refriega contra otros jugadores online, con un escenario que se acota de
-                forma progresiva. Siendo hábiles con las ármas y ávidos en la táctica, podremos llegar a cenar pollo.
-            </p>
-            <table border="1">
-                <tr>
-                    <td colspan="3"><b>Requisitos</b></td>
-                </tr>
-                <tr>
-                    <td><b>Systema</b></td>
-                    <td>Android 5.1.1 o superior </td>
-                </tr>
-                <tr>
-                    <td><b>RAM</b></td>
-                    <td>2GB</td>
-                </tr>
-                <tr>
-                    <td><b>SO</b></td>
-                    <td colspan="2">Android / IOS</td>
-                </tr>
-                <tr>
-                    <td><b>Espacio libre</b></td>
-                    <td colspan="3">2GB</td>
-                </tr>
-            </table>
-        </article>
+    <div id="contenido">
 
-        <article id="forniteMobile">
-            <h2>Fortnite</h2>
-            <img src="imagenes/fortnitem.jpg" alt="Fornite Mobile">
-            <p>
-                Fortnite Battle Royale es un videojuego gratuito perteneciente al género de Battle Royale desarrollado y
-                publicado por Epic Games. Fue lanzado como un título con acceso anticipado para Microsoft Windows,
-                macOS, PlayStation 4, Xbox One el 26 de septiembre de 2017, para iOS el 2 de abril de 2018, y para
-                Android el 9 de agosto. Fue lanzado en la consola Nintendo Switch el 12 de junio de 2018.1​ Es un
-                spin-off de Fortnite: Salvar el Mundo, un cooperativo juego de supervivencia con elementos de
-                construcción.
-            </p>
-            <table border="1">
-                <tr>
-                    <td colspan="3"><b>Requisitos</b></td>
-                </tr>
-                <tr>
-                    <td><b>Systema</b></td>
-                    <td>Android 5.0 o superior </td>
-                </tr>
-                <tr>
-                    <td><b>RAM</b></td>
-                    <td>3GB</td>
-                </tr>
-                <tr>
-                    <td><b>SO</b></td>
-                    <td colspan="2">Android / IOS</td>
-                </tr>
-                <tr>
-                    <td><b>Espacio libre</b></td>
-                    <td colspan="3">2GB</td>
-                </tr>
-            </table>
-        </article>
+        <div class="subMenu">
+            <h2>Juegos para Moviles</h2>
+            <header>
+                <ul>
+                    <li><a href="#pubgMobile">PUBG Mobile </a></li>
+                    <li><a href="#forniteMobile">Fortnite</a></li>
+                    <li><a href="#VainGlory">VainGlory</a></li>
+                </ul>
+            </header>
+        </div>
+        <section>
+            <article id="pubgMobile">
+                <h2>PUBG Mobile </h2>
+                <img src="imagenes/pubg-mobile-portada.jpg" alt="PUBG Mobile">
+                <p>
+                    PUBG Mobile es la versión para dispositivos móviles del popular PlayerUnknown's Battlegrounds, el
+                    juego
+                    que popularizó el género battle royale.
+                </p>
+                <p>
+                    Hasta el momento, muchos titulos habían copiado la premisa de PUBG en móviles, pero es ahora cuando
+                    la
+                    obra original da el salto a dichos sistemas. La premisa es la misma que en la obra original: ser el
+                    único superviviente en una refriega contra otros jugadores online, con un escenario que se acota de
+                    forma progresiva. Siendo hábiles con las ármas y ávidos en la táctica, podremos llegar a cenar
+                    pollo.
+                </p>
+                <table border="1">
+                    <tr>
+                        <td colspan="3"><b>Requisitos</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>Systema</b></td>
+                        <td>Android 5.1.1 o superior </td>
+                    </tr>
+                    <tr>
+                        <td><b>RAM</b></td>
+                        <td>2GB</td>
+                    </tr>
+                    <tr>
+                        <td><b>SO</b></td>
+                        <td colspan="2">Android / IOS</td>
+                    </tr>
+                    <tr>
+                        <td><b>Espacio libre</b></td>
+                        <td colspan="3">2GB</td>
+                    </tr>
+                </table>
+            </article>
 
-        <article id="VainGlory">
-            <h2>VainGlory</h2>
-            <img src="imagenes/VainGlory-MOBA.jpg" alt="Fornite Mobile">
-            <p>
-                Desarrollado por Super Evil Megacorp, VainGlory se posiciona como el principal MOBA de referencia en
-                dispositivos móviles. Llegado después de cosechar éxito en iOS, aterriza en Android para asentar las
-                bases de este género multijugador y convertirse en un referente.
-            </p>
-            <table border="1">
-                <tr>
-                    <td colspan="3"><b>Requisitos</b></td>
-                </tr>
-                <tr>
-                    <td><b>Systema</b></td>
-                    <td>Android 5.0 o superior </td>
-                </tr>
-                <tr>
-                    <td><b>RAM</b></td>
-                    <td>3GB</td>
-                </tr>
-                <tr>
-                    <td><b>SO</b></td>
-                    <td colspan="2">Android</td>
-                </tr>
-                <tr>
-                    <td><b>Espacio libre</b></td>
-                    <td colspan="3">3GB</td>
-                </tr>
-            </table>
-        </article>
+            <article id="forniteMobile">
+                <h2>Fortnite</h2>
+                <img src="imagenes/fortnitem.jpg" alt="Fornite Mobile">
+                <p>
+                    Fortnite Battle Royale es un videojuego gratuito perteneciente al género de Battle Royale
+                    desarrollado y
+                    publicado por Epic Games. Fue lanzado como un título con acceso anticipado para Microsoft Windows,
+                    macOS, PlayStation 4, Xbox One el 26 de septiembre de 2017, para iOS el 2 de abril de 2018, y para
+                    Android el 9 de agosto. Fue lanzado en la consola Nintendo Switch el 12 de junio de 2018.1​ Es un
+                    spin-off de Fortnite: Salvar el Mundo, un cooperativo juego de supervivencia con elementos de
+                    construcción.
+                </p>
+                <table border="1">
+                    <tr>
+                        <td colspan="3"><b>Requisitos</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>Systema</b></td>
+                        <td>Android 5.0 o superior </td>
+                    </tr>
+                    <tr>
+                        <td><b>RAM</b></td>
+                        <td>3GB</td>
+                    </tr>
+                    <tr>
+                        <td><b>SO</b></td>
+                        <td colspan="2">Android / IOS</td>
+                    </tr>
+                    <tr>
+                        <td><b>Espacio libre</b></td>
+                        <td colspan="3">2GB</td>
+                    </tr>
+                </table>
+            </article>
 
+            <article id="VainGlory">
+                <h2>VainGlory</h2>
+                <img src="imagenes/VainGlory-MOBA.jpg" alt="Fornite Mobile">
+                <p>
+                    Desarrollado por Super Evil Megacorp, VainGlory se posiciona como el principal MOBA de referencia en
+                    dispositivos móviles. Llegado después de cosechar éxito en iOS, aterriza en Android para asentar las
+                    bases de este género multijugador y convertirse en un referente.
+                </p>
+                <table border="1">
+                    <tr>
+                        <td colspan="3"><b>Requisitos</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>Systema</b></td>
+                        <td>Android 5.0 o superior </td>
+                    </tr>
+                    <tr>
+                        <td><b>RAM</b></td>
+                        <td>3GB</td>
+                    </tr>
+                    <tr>
+                        <td><b>SO</b></td>
+                        <td colspan="2">Android</td>
+                    </tr>
+                    <tr>
+                        <td><b>Espacio libre</b></td>
+                        <td colspan="3">3GB</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+    </div>
+    <div id="extra">
         <aside>
             <img src="imagenes/publi1.jpg" alt="Steam">
         </aside>
         <aside>
             <img src="imagenes/publi2.jpg" alt="EA">
         </aside>
-    </section>
-    <section>
+    </div>
+    <section class="rg">
         <aside>
             <img src="imagenes/rg.jpg" alt="RG">
         </aside>

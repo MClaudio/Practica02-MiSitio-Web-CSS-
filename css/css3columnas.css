@@ -1,0 +1,18 @@
+#menu{
+    width: 24%;
+    float: left;
+}
+#contenido{
+    width: 50%;
+    float: left;
+}
+
+#extra{
+    width: 24%;
+    float: left;
+}
+
+#extra img{
+    display: block;
+    width: 200%;
+}
