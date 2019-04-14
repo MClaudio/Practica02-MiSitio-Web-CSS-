@@ -11,7 +11,7 @@ Fecha: 14/04/2019
  
 3.	Se crea los estilos generales para todas las paginas estos estilos incliyen el diseño del header, menú, el contenido principal y el footer así también como los estilos para los textos e images a continuación.
 •	Estilos generales:
- 
+```css 
 *{
     margin: 0;
     padding: 0;
@@ -20,9 +20,9 @@ Fecha: 14/04/2019
 body{
     background-image: url("../imagenes/dynamic-style.png");
 }
- 
+```
 •	Estilos de header:
-
+```css 
 /**HEADER**/
 #cabezera{
     width: 100%;
@@ -54,9 +54,9 @@ body{
     left: 25px;
     color: #1C80FF;
 }
- 
+```
 •	Estilos del menú:
-
+```css 
 /**NAV**/
 nav{
     clear: both;
@@ -77,9 +77,9 @@ nav ul li a:hover{
     background-color: #1C80FF;
     color: #FFF;
 }
- 
+```
 •	Estilos para el submenú de navegación entre artículos:
-
+```css 
 /**BODY SUBMENU**/
 #contenido .subMenu{
     border: 4px dotted #1C80FF;
@@ -107,9 +107,9 @@ nav ul li a:hover{
 #contenido .subMenu a:hover{
     text-decoration: underline;
 }
- 
+``` 
 •	Estilos para el contenedor contenido y los artículos:
-
+```css 
 /**BODY**/
 body #tituloContenido{
     margin: 10px;
@@ -134,9 +134,9 @@ body #tituloContenido{
 #contenido img:hover{
     opacity: .8;
 }
- 
+``` 
 •	Estilo para las tablas:
-
+```css 
 /**BODY TABLA**/
 #contenido table{
     background-color: #E6DBC8;
@@ -148,9 +148,9 @@ body #tituloContenido{
     padding: 5px;
     text-align: center;
 }
- 
+``` 
 •	Estilos para los asides:
-
+```css 
 /**ASIDE 1**/
 #extra{
     width: 100%;
@@ -175,9 +175,9 @@ body #tituloContenido{
 .rg img{
     width: 100%;
 }
-
+```
 •	Estilo para el footer: 
-
+```css 
 /**FOOTER**/
 footer{
     clear: both;
@@ -194,9 +194,9 @@ footer a{
 footer a:hover{
     color: #000;
 }
-
+```
 4.	Se crea los estilos para el diseño de 2 columnas este diseño se logra con flotar los elementos hacia la izquierda:
- 
+```css 
 #menu{
    width: 30%;
    float: left;
@@ -209,9 +209,9 @@ footer a:hover{
 #contenido iframe{
     width: 100%;
 }
- 
+``` 
 5.	Se crea el diseño de 3 columnas también para este diseño se hace uso de los floats para poder flotar los contenedores hacia la izquierda.
-
+```css 
 #menu{
     width: 24%;
     float: left;
@@ -234,15 +234,15 @@ footer a:hover{
     display: block;
     width: 200%;
 }
- 
+``` 
 Para lograr que estos elementos floten de manera correcta el contenido principal se encierra dentro de un DIV así también como el los asides se encierra dentro de un DIV para lograr 3 cajas que contienen dentro de ellas elementos y a estas poderles dar el tamaño adecuado para que se posicionen una a lado de otra.
 
 6.	Se crea el archivo HTML que contendrá el formulario como esta comparte todo el contenido básico de las otras páginas solo se evidenciara que dentro del contenido principal se encuentra el formulario para contacto:
-
+```html
 <a href="contacto.html">Contacto</a>
-
+```
 7.	Posteriormente se procede a dar estilos al formulario para lograr una vista mas amigable:
-
+```css 
 /**Formulario**/
 #contenido .formulario{
     width: 80%;
@@ -284,7 +284,7 @@ Para lograr que estos elementos floten de manera correcta el contenido principal
 #contenido .formulario button:active{
     background: #072040;
 }
- 
+``` 
 RESULTADO(S) OBTENIDO(S):
 Se crea un sitio web mas amigable para el usuario y con css se le da un estilo más ameno a la vista del usuario para esta practica se usó los conceptos de modelo de caja y posicionamiento para lograr crear diseños de 2 y 3 columnas además se implementa un formulario para contacto también se hace uso de la herramienta de GitHub el cual el repositorio se pude ver en el siguiente enlace: https://github.com/MClaudio/Practica02-MiSitio-Web-CSS- 
 El resultado de aplicar las hojas de estilo se pude apreciar en la siguiente imagen:
